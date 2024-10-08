@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8">
+<link href="css/style2.css" rel="stylesheet">
+
+
+<title> Quizzzz</title>
+</head>
+<body>
+    
+    <header> <h1> Le Grand Quiz des Champions </h1> </header>
+
+<section>
+    <div id="Chrono">Timer: 10</div>
+        
+    <div class="quiz-container">
+        <div id="quiz"></div> <!--La question sera push ici-->
+    </div>
+    
+    <button id="ok"> OK </button> <!--Réponse + Pour passer à la question suivante-->
+    <button id="submit"> ▬ Fin ▬ </button> <!--dernière question, submit le quizz-->
+
+    <div id="results"></div> <!--Les résultats sont push ici-->
+
+    <div id="btn-result"> 
+        <button id="presult" class="previous round">&#8249;</button> <!--revenir sur les slides-->
+        <button id="nresult" class="next round">&#8250;</button> <!--continuer sur les slides -->
+    </div>
+</section>
+
+</body>
+
+<script type="text/javascript" src="js/questions.js"></script>
+</html>

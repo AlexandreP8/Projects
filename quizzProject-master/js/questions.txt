@@ -1,0 +1,20 @@
+var i [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30];
+
+function mafonction() { ... }
+
+ var counter = 10;
+    var intervalId = null;
+    function finish() {
+      clearInterval(intervalId);
+      document.getElementById("bip").innerHTML = "TERMINE!";	
+    }
+    function bip() {
+        counter--;
+        if(counter == 0) finish();
+        else {	
+            document.getElementById("bip").innerHTML = counter + " secondes restantes";
+        }	
+    }
+    function start(){
+      intervalId = setInterval(bip, 1000);
+    }	

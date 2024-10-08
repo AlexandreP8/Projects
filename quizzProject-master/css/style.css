@@ -1,0 +1,38 @@
+
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(211, 230, 255);
+}
+
+
+
+/*Header*/
+header {
+    height: 10%;
+    background: linear-gradient(rgb(11, 11, 119),rgb(11, 11, 119),rgb(11, 11, 119),rgb(11, 11, 119),rgb(11, 11, 119),rgb(211, 230, 255));
+    display: flex; justify-content: center; align-items: center;
+    }
+header h1 { color: white;}
+
+/*section*/
+section, article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article{ margin-bottom: 30px;}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+
+
+
+/************ Resultats ***********/
